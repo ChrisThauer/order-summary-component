@@ -143,8 +143,13 @@ h2 {
 /* MEDIA QUERIES */
 @media (max-width: 500px) {
     .container {
-        width: 85%;
-        height: 85%;
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .container img {
+        border-radius: 0;
     }
 
     .content {
@@ -158,4 +163,5 @@ h2 {
     .plan-details h2 {
         font-size: 18px;
     }
+
 }
